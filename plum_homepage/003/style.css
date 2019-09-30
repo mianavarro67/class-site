@@ -1,0 +1,157 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #541d36;
+}
+
+.menu{
+  width:30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.menu-item a{
+  font-size: 20px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.menu-item a:hover{
+  text-decoration: line-through;
+}
+
+
+.title{
+  font-style: italic;
+  font-size: 30px;
+  color: lightyellow;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.title_3{
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+.poem{
+ font-size: 30px;
+ width: 50%;
+ height: 200px;
+ color: lightyellow;
+ margin-right: 10%;
+ margin-left: 10%;
+}
+
+.total{
+font-family: 'Fira Sans', sans-serif;
+color: white;
+font-size: 30px;
+margin-left: 40px;
+margin-right: 40px;
+}
+
+.para_1{
+  position:relative;
+  width: 25%;
+  height: 100px;
+  background: #541d36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  /* transform:translateY(-50%); */
+  transition: background .5s ease,
+  height 1s ease;
+  color: white;
+}
+
+.para_1:hover{
+  background: white;
+  height: 100px;
+  color:#541d36;
+}
+
+.para_2{
+  position:relative;
+  width: 50%;
+  height: 100px;
+  background: #541d36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  /* transform:translateY(-50%); */
+  transition: background .5s ease,
+  height 1s ease;
+  color: white;
+}
+
+.para_2:hover{
+  background: white;
+  height: 100px;
+  color:#541d36;
+}
+
+.para_3{
+  position:relative;
+  width: 75%;
+  height: 100px;
+  background: #541d36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  /* transform:translateY(-50%); */
+  transition: background .5s ease,
+  height 1s ease;
+  color: white;
+}
+
+.para_3:hover{
+  background: white;
+  height: 100px;
+  color:#541d36;
+}
+
+.entire_poem{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: lightblue;
+}
+
+.plum{
+width: 100px;
+height:100px;
+display: none;
+position: fixed;
+}
+.hover-img:hover .plum{
+  display: block;
+}
+
+.money{
+  width: 100px;
+  height:100px;
+  display: none;
+  position: fixed;
+}
+  .hover-img:hover .money{
+    display: block;
+  }
+
+  .ice{
+    width: 100px;
+    height:100px;
+    display: none;
+    position: fixed;
+  }
+    .hover-img:hover .ice{
+      display: block;
+    }

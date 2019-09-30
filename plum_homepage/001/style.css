@@ -1,0 +1,15 @@
+.menu{
+  width:30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.menu-item a{
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+.menu-item a:hover{
+  text-decoration: line-through;
+}

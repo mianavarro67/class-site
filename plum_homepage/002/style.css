@@ -1,0 +1,39 @@
+
+
+.menu{
+  width:30%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.menu-item a{
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
+
+.menu-item a:hover{
+  text-decoration: line-through;
+}
+
+.box1{
+  background-color:lightpink;
+}
+
+
+.box2{
+  background-color: lightgreen;
+}
+
+.box3{
+  background-color: grey;
+}
+
+.box4{
+  background-color:yellow;
+}
+
+h1{
+  font-size: 50px;
+  color: white;
+}
