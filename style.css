@@ -1,6 +1,7 @@
 body{
   background-color: rgb(12, 31, 204);
   font-family: 'Yatra One', cursive;
+  cursor: url('rainbow.cur'), default;
 }
 
 .menu{
@@ -43,7 +44,7 @@ body{
 .graphics{
   margin-top: 5px;
   width: 100%;
-  height: 50%;
+  height: 100%;
 }
 
 .graphics img{
@@ -53,17 +54,31 @@ body{
 }
 
 .image{
-width: 50%;
-height:50%;
-z-index: -1;
+/* width: 50%; */
+height:60%;
+position:fixed;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.lightning{
+  position:fixed;
+  top:50%;
+  left:40%;
+   z-index: -1;
+  transform: translate(-50%, -50%);
+  height:25%;
 }
 
 
-.lightning img{
-  animation: flash 5s infinite linear;
+.image:hover + .lightning{
+  animation: flash 1.2s infinite linear;
 }
+
+
 
 @keyframes flash {
-  0%{display: none;}
-  100%{display: initial;}
+  0%{transform: translate(-50%, -50%);}
+  100%{transform: translate(-50%, 11vh);}
 }
