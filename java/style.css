@@ -1,0 +1,31 @@
+.move{
+ transform: translateX(300px);
+ /* this goes with java */
+ /* defining entire page */
+}
+
+.button{
+  cursor: crosshair;
+  position: fixed;
+  right: 0;
+/* right = 0 pixels away from right side of screen */
+}
+
+#box{
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  /* top and left relate to position fixed */
+  top: 0;
+  left:-300px;
+  background: black;
+  transition: transform .5s ease;
+  /* transition is calling upon the transform defined in .style */
+  color: white;
+}
+
+.marquee {
+  width: 300px; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+  border:1px solid #ccc;
+}

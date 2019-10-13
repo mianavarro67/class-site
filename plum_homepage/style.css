@@ -2,11 +2,6 @@ body{
   background-color: #541d36;
 }
 
-.move{
-  animation: move 10s infinite linear;
-  position: fixed;
-  font-size: 20px;
-}
 
 .menu{
   width:100%;
@@ -44,7 +39,7 @@ z-index: -1;
 
 .footer{
   z-index: 10px;
-  height: 75px;
+  height: 25px;
   width: 100%;
   position: fixed;
   bottom: 0px;
