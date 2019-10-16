@@ -1,24 +1,177 @@
 body {
-  height: 300vh;
+  height: 680vh;
   background: linear-gradient(180deg, #fdfb54 0%, #aaa4ff 45%, #5634f2 90%);
+  font-family: 'Turret Road', cursive;
+  font-size: 20px;
+}
+
+p{
+  font-size: 150px;
+  margin: 25px;
+}
+
+.time-box{
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
+}
+
+.time{
+  text-align: center;
+  color: rgb(60, 241, 14);
+}
+
+
+.morning{
+  height:200vh;
+  width: 100%;
+}
+
+.row-1-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.row-2-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.row-3-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.row-4-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.row-5-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.row-6-m{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.row-3-a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.row-4-a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.row-8-a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .flip-box {
   background-color: transparent;
-  width: 100%;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
   perspective: 1000px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
-.flip-box-inner {
-  width: 100px;
-  height: 100%;
+.flip-box-2 {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
   position: relative;
-  top: 20px;
-  left: 30px;
+  right: 250px;
+}
+
+.flip-box-3 {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  right: 200px;
+}
+.flip-box-4 {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  left: 600px;
+}
+.flip-box-5 {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  left: 200px;
+}
+.flip-box-6 {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  right: 500px;
+}
+.flip-box-3a {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  left: 100px;
+  right: 100px;
+}
+.flip-box-4a {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  left: 50px;
+  right: 100px;
+}
+.flip-box-8a {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid #f1f1f1; */
+  perspective: 1000px;
+  position: relative;
+  right: 100px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -27,18 +180,30 @@ body {
 .flip-box:hover .flip-box-inner {
   transform: rotateX(180deg);
 }
-
-.flip-box-front {
-  background-color: #5634f2;
-  /* color: black; */
-}
-
-.flip-box-back {
-  background-color: #5634f2;
-  color: #fdfb54;
+.flip-box-2:hover .flip-box-inner {
   transform: rotateX(180deg);
 }
-
+.flip-box-3:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-4:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-5:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-6:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-3a:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-4a:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+.flip-box-8a:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
 .flip-box-front, .flip-box-back {
   position: absolute;
   width: 100%;
@@ -46,98 +211,23 @@ body {
   backface-visibility: hidden;
 }
 
-
-.flip-box-noon {
-  background-color: transparent;
-  width: 100%;
-  height: 100px;
-  perspective: 1000px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: absolute;
-  top: 100px;
-  left: 200px;
-
+.flip-box-front {
+  background-color: #5634f2;
+  color: black;
 }
 
-.flip-box-inner-noon {
-  width: 100px;
-  height: 100%;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box-noon:hover .flip-box-inner-noon {
+.flip-box-back {
+  background-color: #fdfb54;
+  color: white;
   transform: rotateX(180deg);
 }
 
-.flip-box-front-noon, .flip-box-back-noon {
-  position: absolute;
+.afternoon{
+  height:200vh;
   width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
 }
 
-.flip-box-front-noon {
-  background-color: #5634f2;
-  /* color: black; */
-}
-
-.flip-box-back-noon {
-  background-color: #5634f2;
-  color: #fdfb54;
-  transform: rotateX(180deg);
-}
-
-
-.flip-box-night {
-  background-color: transparent;
+.night{
+  height:275vh;
   width: 100%;
-  height: 100px;
-  perspective: 1000px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  position: absolute;
-  top: 300px;
-  left: 500px;
-
-}
-
-.flip-box-inner-night {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  top: 200px;
-  left: 100px;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box-night:hover .flip-box-inner-night {
-  transform: rotateX(180deg);
-}
-
-.flip-box-front-night, .flip-box-back-night {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  backface-visibility: hidden;
-}
-
-.flip-box-front-night {
-  background-color: #5634f2;
-  /* color: black; */
-}
-
-.flip-box-back-night {
-  background-color: #5634f2;
-  color: #fdfb54;
-  transform: rotateX(180deg);
 }
