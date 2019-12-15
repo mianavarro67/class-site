@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(12, 0, 105);
+}
+
+
+.button{
+  width: 30px;
+  height: 20px;
+  background-color: pink;
+}
+
+.one{
+  background-color: green;
+}

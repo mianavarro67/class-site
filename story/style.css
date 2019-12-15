@@ -250,3 +250,17 @@ h2{
   height:275vh;
   width: 100%;
 }
+
+.statement{
+  width: 100%;
+  margin-right: 50px
+  margin0
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+.words{
+  font-size: 20px;
+  color: white;
+}

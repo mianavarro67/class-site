@@ -1,0 +1,37 @@
+html{
+background:#08442b;
+font-family: cursive;
+}
+
+.flex{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  bottom:0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image{
+  width: 60vh;
+  height: 60vh;
+  animation: pulse 1s alternate infinite ease;
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+}
+
+.text p:hover{
+  font-size: 600px;
+}
+
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+    100% {transform: scale(1.5);;
+    transform: translateY(100px);}
+}

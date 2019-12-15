@@ -1,0 +1,17 @@
+body{
+  width: 100%;
+  height: 100vh;
+  font-family: 'Playfair Display', serif;
+  color:#08442b;
+  background-color: grey;
+    margin-left: 20px;
+}
+
+p.header{
+  margin: 1px;
+  font-size: 80px;
+}
+
+.content{
+  width: 75%;
+}
